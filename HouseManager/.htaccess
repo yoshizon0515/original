@@ -1,0 +1,4 @@
+Options +SymLinksIfOwnerMatch
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^HouseManager
+RewriteRule (.*) http://yoshitec.weblike.jp/HouseManager/public/ [R=301,L]
